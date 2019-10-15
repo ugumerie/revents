@@ -9,7 +9,8 @@ import firebase from "../config/firebase";
 const rrfConfig = {
   userProfile: "users", //the user collection in the database,
   attachAuthIsReady: true, //wait until authenication b4 rendering the page
-  useFirestoreForProfile: true //use firestore for our db instead of the default firebase
+  useFirestoreForProfile: true, //use firestore for our db instead of the default firebase
+  updateProfileOnLogin: false
 };
 
 export const configureStore = () => {
