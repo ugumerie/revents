@@ -28,7 +28,7 @@ const mapState = (state, ownProps) => {
   }
 
   return {
-    initialValues: event //specifically for redux form
+    initialValues: event //specifically for redux form to initialize the form
   };
 };
 
