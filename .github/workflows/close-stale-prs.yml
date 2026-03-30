@@ -3,6 +3,7 @@ name: Close Stale Pull Requests
 on:
   push:
     branches:
+      - master
       - "copilot/close-stale-pull-requests"
   workflow_dispatch:
 
